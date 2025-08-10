@@ -28,6 +28,8 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/show" element={<BillList />} />
+                        <Route path="/bill/:id" element={<BillDetails />} />
+
                     </Routes>
                 </div>
             </Router>
