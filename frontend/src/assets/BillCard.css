@@ -1,0 +1,28 @@
+.bill-card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .bill-card.overdue {
+    border-left: 5px solid red;
+  }
+  
+  .bill-card.upcoming {
+    border-left: 5px solid green;
+  }
+  
+  .bill-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .bill-card p {
+    margin: 4px 0;
+  }
+  

@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import NavBar from './components/NavBar';
+
 // Correctly import ToastContainer
 import { ToastContainer } from 'react-toastify';
 // Import Toastify CSS
@@ -8,6 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { checkRemindersAtTime } from './api/ReminderService';
 import Home from './components/Home';
 import BillList from './components/BillList';
+import BillDetails from './components/BillDetails';
 
 
 
